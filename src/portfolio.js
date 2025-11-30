@@ -20,104 +20,47 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
-  subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
-  ),
-  resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+  username: "Pragya Singh",
+  title: "Hi, I'm Pragya 👋",
+  subTitle:
+    "Frontend / Angular Developer with 2+ years of experience building production-grade web apps in the travel & airline domain. I love turning complex business rules into clean, usable interfaces.",
+  resumeLink: "https://drive.google.com/file/d/1mNAawpVswu_nsjkDC5NkyyfJbfgkVWvF/view?usp=sharing", // paste your Google Drive CV link here
+  displayGreeting: true
 };
+
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/pragyya7",
+  linkedin: "https://www.linkedin.com/in/pragya-97233b220?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  gmail: "pragyadsce@gmail.com",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
-// Skills Section
-
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle:
+    "Angular-focused frontend developer with experience in complex forms, dynamic UI rules, and integration with REST APIs.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "⚡ Build responsive single-page applications using Angular & TypeScript",
+    "⚡ Implement complex, dynamic forms and dropdown logic driven by backend data",
+    "⚡ Integrate REST APIs for search, booking, and user flows with proper error handling",
+    "⚡ Write clean, modular code with reusable components and shared utilities",
+    "⚡ Collaborate with product & backend teams to translate requirements into UI behavior"
   ],
-
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+    { skillName: "Angular", fontAwesomeClassname: "simple-icons:angular" },
+    { skillName: "TypeScript", fontAwesomeClassname: "simple-icons:typescript" },
+    { skillName: "JavaScript", fontAwesomeClassname: "simple-icons:javascript" },
+    { skillName: "HTML5", fontAwesomeClassname: "simple-icons:html5" },
+    { skillName: "CSS3 / SCSS", fontAwesomeClassname: "simple-icons:css3" },
+    { skillName: "Git / GitHub", fontAwesomeClassname: "simple-icons:git" },
+    { skillName: "REST APIs", fontAwesomeClassname: "simple-icons:postman" }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Education Section
@@ -126,23 +69,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
+      collegeName: "Dayananda Sagar College of Engineering",
+      logo: require("./assets/images/dayananda.png"),
+      subHeader: "Electronics and communication engineering",
+      duration: "August 2019 - April 2023",
       desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
@@ -158,7 +93,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "30%"
     },
     {
       Stack: "Programming",
