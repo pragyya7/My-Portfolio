@@ -24,7 +24,7 @@ const greeting = {
   title: "Hi, I'm Pragya 👋",
   subTitle:
     "Frontend / Angular Developer with 2+ years of experience building production-grade web apps in the travel & airline domain. I love turning complex business rules into clean, usable interfaces.",
-  resumeLink: "https://drive.google.com/file/d/1mNAawpVswu_nsjkDC5NkyyfJbfgkVWvF/view?usp=sharing", // paste your Google Drive CV link here
+  resumeLink: "https://drive.google.com/file/d/1RC7UoFZBelHtZv8ozViX74ezhnLIWyRw/view?usp=sharing", // paste your Google Drive CV link here
   displayGreeting: true
 };
 
